@@ -14,15 +14,17 @@
   <link rel="stylesheet" href="./css/common.css">
 
   <script type="text/javascript" src="./js/main.js" defer></script>
+  <script type="text/javascript">
+     $("header").load("header.html")
+     $("footer").load("footer.html")
+  </script>
   <title>test</title>
 </head>
 <body>
   
   <div id="wrap">
     <header>
-      <script type="text/javascript">
-        $("header").load("header.html")
-      </script>
+
     </header>
     <!--  -->
     <section>
@@ -37,9 +39,7 @@
     </section>
     <!--  -->
     <footer>
-      <script type="text/javascript">
-        $("footer").load("footer.html")  
-      </script>  
+
     </footer>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
