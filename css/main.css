@@ -1,0 +1,17 @@
+#main {
+
+}
+
+#main_left {
+    background-color: yellow;
+    border: 1px solid white;
+}
+
+#main_middle {
+    background-color: black;
+    border: 1px solid white;
+}
+#main_right {
+    background-color: red;
+    border: 1px solid white;
+}
